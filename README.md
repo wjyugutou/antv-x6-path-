@@ -1,16 +1,177 @@
-# Vue 3 + TypeScript + Vite
+# antv-x6-path-
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<!-- 徽章区域 -->
 
-## Recommended IDE Setup
+![GitHub](https://img.shields.io/github/license/wjyugutou/antv-x6-path-)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+![GitHub last commit](https://img.shields.io/github/last-commit/wjyugutou/antv-x6-path-)
 
-## Type Support For `.vue` Imports in TS
+![GitHub repo size](https://img.shields.io/github/repo-size/wjyugutou/antv-x6-path-)
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+## 📝 项目描述
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+水珠滚动动画
+
+
+## 🛠️ 技术栈
+
+
+- HTML
+
+- 配置文件
+
+- TypeScript
+
+
+
+## 📁 项目结构
+
+
+项目包含 **8 个文件** 和 **3 个目录**
+
+
+### 文件类型分布
+
+
+- **.json**文件: 2 个
+
+- **.eslintrc**文件: 1 个
+
+- **.gitignore**文件: 1 个
+
+- **.md**文件: 1 个
+
+- **.html**文件: 1 个
+
+- **.yaml**文件: 1 个
+
+- **.ts**文件: 1 个
+
+
+
+### 主要目录
+
+
+- `.vscode/`
+
+- `public/`
+
+- `src/`
+
+
+
+## 🚀 快速开始
+
+
+### 安装依赖
+
+
+```bash
+npm install
+# 或
+pnpm install
+# 或
+yarn install
+```
+
+
+### 开发命令
+
+
+启动开发服务器:
+
+```bash
+npm run dev
+```
+
+
+构建项目:
+
+```bash
+npm run build
+```
+
+
+## ✨ 功能特点
+
+
+- AntV X6图可视化库
+
+- 节点与边的图形展示
+
+- 交互式图表功能
+
+
+
+## 💡 使用说明
+
+
+
+1. **查看图表**：打开主页面查看图表示例
+2. **交互操作**：尝试拖拽节点、缩放画布等操作  
+3. **学习配置**：参考代码学习AntV X6的配置方式
+4. **自定义修改**：根据需要修改节点样式、布局等
+
+
+
+## 💻 开发指南
+
+
+### 可用脚本
+
+
+- `dev`: vite
+
+- `build`: vue-tsc --noEmit && vite build
+
+- `preview`: vite preview
+
+
+
+### 代码结构
+
+
+主要代码文件通常位于以下位置：
+
+
+- `index.html`: 主页面文件
+
+- `js/` 或 `scripts/`: JavaScript文件目录
+
+- `css/` 或 `styles/`: 样式文件目录
+
+
+
+## 🤝 贡献指南
+
+
+欢迎改进本项目！请按以下步骤操作：
+
+
+1. Fork 本仓库
+
+2. 创建功能分支 (`git checkout -b feature/your-feature`)
+
+3. 提交更改 (`git commit -m 'Add your feature'`)
+
+4. 推送到分支 (`git push origin feature/your-feature`)
+
+5. 开启 Pull Request
+
+
+## 📄 许可证
+
+
+查看项目中的 LICENSE 文件了解详情。
+
+
+## 📞 联系方式
+
+
+- **作者**: wjyugutou
+
+- **GitHub**: [wjyugutou](https://github.com/wjyugutou)
+
+- **邮箱**: 1220253798@qq.com
+
